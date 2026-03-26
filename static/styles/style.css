@@ -23,19 +23,41 @@ body {
     font-family: 'Inter', sans-serif;
     line-height: 1.6;
     overflow-x: hidden;
+
+    overflow-x: hidden; /* Impede que qualquer coisa crie rolagem horizontal */
+    position: relative;
+}
+
+@keyframes float {
+    0% { transform: translate(0, 0); }
+    50% { transform: translate(-30px, 30px); }
+    100% { transform: translate(0, 0); }
 }
 
 /* Background dinâmico */
+/* Trava o fundo e esconde o que sobra */
+.bg-overflow-limiter {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    z-index: -1;
+    pointer-events: none; /* Deixa clicar nos botões normalmente */
+}
+
 .blob {
     position: absolute;
-    /* top: -100px;
-    right: -100px; */
-    width: 400px;
-    height: 400px;
+    top: -100px;
+    right: -100px;
+    width: 500px;
+    height: 500px;
     background: var(--accent);
     filter: blur(120px);
     opacity: 0.15;
-    z-index: -1;
+    border-radius: 50%;
+    animation: float 15s ease-in-out infinite;
 }
 
 .container {
@@ -216,7 +238,21 @@ ul {
 
 @media (max-width: 768px) {
     h1 { font-size: 2.5rem; }
+
     .grid-2 { grid-template-columns: 1fr; }
+
+    .container {
+        padding: 60px 20px; /* Reduz o respiro lateral em telas pequenas */
+    }
+
+    ul.nav-links {
+        display: none;
+    }
+
+    .blob {
+        width: 300px;
+        height: 300px;
+    }
 }
 
 .servicos-grid {
