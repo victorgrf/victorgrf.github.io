@@ -91,7 +91,7 @@ const translations = {
         contactDesc: "Escolha seu canal preferido para orçamentos ou dúvidas.",
         contactPhone: "Telefone",
 
-        formTitle: "Se preferir, deixe seu e-mail para contato",
+        formTitle: "Se preferir, deixe seu e-mail que eu entro em contato",
         formName: "Seu Nome",
         formEmail: "Seu E-mail",
         formMessage: "Como posso ajudar?",
@@ -186,7 +186,7 @@ const translations = {
         contactDesc: "Choose your preferred channel for quotes or questions.",
         contactPhone: "Phone Number",
 
-        formTitle: "If you prefer, leave your email for contact",
+        formTitle: "If you prefer, leave your email and I'll get in touch",
         formName: "Your Name",
         formEmail: "Your E-mail",
         formMessage: "How can I help?",
