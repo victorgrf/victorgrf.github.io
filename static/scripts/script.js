@@ -19,12 +19,12 @@ const translations = {
         navContato: "Contato",
         navServicos: "Serviços",
 
-        tagline: "Desenvolvedor Fullstack",
+        tagline: "Desenvolvedor BackEnd",
 
         heroTitle: "Transformando código em ",
         heroTitlePart2: "experiência",
         heroIntro: "Olá, eu sou ",
-        heroAge: "anos. Desenvolvedor focado em construir aplicações escaláveis e interfaces modernas",
+        heroAge: "anos. Desenvolvedor focado em construir aplicações escaláveis e interfaces modernas.",
 
         btnProjects: "Ver Projetos",
         btnContact: "Entre em contato",
@@ -37,9 +37,9 @@ const translations = {
         edu1Time: "2022 - 2024",
         edu1Course: "Análise e Desenvolvimento de Sistemas",
         edu1Degree: "Curso Superior Completo",
-        edu1Item1: "Análise e Elicitação de Requisitos",
-        edu1Item2: "Arquitetura de Software e Design Patterns",
-        edu1Item3: "Modelagem e Gerenciamento de Banco de Dados",
+        edu1Item1: "Análise e Elicitação de Requisitos.",
+        edu1Item2: "Arquitetura de Software e Design Patterns.",
+        edu1Item3: "Modelagem e Gerenciamento de Banco de Dados.",
         edu1Tecnologies: "MySQL, RESTful API, JavaScript, HTML, CSS, C, C# e Java.",
 
         exp1Time: "1 ano e 3 meses",
@@ -91,7 +91,7 @@ const translations = {
         contactDesc: "Escolha seu canal preferido para orçamentos ou dúvidas.",
         contactPhone: "Telefone",
 
-        formTitle: "Se preferir, deixe seu e-mail que eu entro em contato",
+        formTitle: "Se preferir, deixe seu e-mail que eu entro em contato.",
         formName: "Seu Nome",
         formEmail: "Seu E-mail",
         formMessage: "Como posso ajudar?",
@@ -101,7 +101,7 @@ const translations = {
 
         footerNav: "Navegação",
         footerSocial: "Redes Sociais",
-        footerDesc: "Desenvolvedor Full Stack & Especialista em Google Ads. Transformando códigos em resultados de negócio.",
+        footerDesc: "Desenvolvedor BackEnd & Especialista em Google Ads. Transformando códigos em resultados de negócio.",
         footerRights: "Todos os direitos reservados."
     },
 
@@ -114,12 +114,12 @@ const translations = {
         navContato: "Contact",
         navServicos: "Services",
 
-        tagline: "Fullstack Developer",
+        tagline: "BackEnd Developer",
 
         heroTitle: "Turning code into ",
         heroTitlePart2: "experience",
         heroIntro: "Hi, I am ",
-        heroAge: "years old. Developer focused on building scalable applications and modern interfaces",
+        heroAge: "years old. Developer focused on building scalable applications and modern interfaces.",
 
         btnProjects: "View Projects",
         btnContact: "Contact Me",
@@ -132,9 +132,9 @@ const translations = {
         edu1Time: "2022 - 2024",
         edu1Course: "Analysis and Systems Development",
         edu1Degree: "Bachelor's Degree",
-        edu1Item1: "Requirements Analysis and Elicitation",
-        edu1Item2: "Software Architecture and Design Patterns",
-        edu1Item3: "Database Design and Management",
+        edu1Item1: "Requirements Analysis and Elicitation.",
+        edu1Item2: "Software Architecture and Design Patterns.",
+        edu1Item3: "Database Design and Management.",
         edu1Tecnologies: "MySQL, RESTful API, JavaScript, HTML, CSS, C, C# and Java.",
 
         exp1Time: "1 year and 3 months",
@@ -186,7 +186,7 @@ const translations = {
         contactDesc: "Choose your preferred channel for quotes or questions.",
         contactPhone: "Phone Number",
 
-        formTitle: "If you prefer, leave your email and I'll get in touch",
+        formTitle: "If you prefer, leave your email and I'll get in touch.",
         formName: "Your Name",
         formEmail: "Your E-mail",
         formMessage: "How can I help?",
@@ -196,7 +196,7 @@ const translations = {
 
         footerNav: "Navigation",
         footerSocial: "Social Media",
-        footerDesc: "Full Stack Developer & Google Ads Specialist. Turning code into business results.",
+        footerDesc: "BackEnd Developer & Google Ads Specialist. Turning code into business results.",
         footerRights: "All rights reserved."
     }
 };
