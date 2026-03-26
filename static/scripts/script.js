@@ -88,7 +88,7 @@ const translations = {
         servDevDesc: "Desenvolvimento de APIs e bibliotecas para padronização de projetos Laravel e manutenção de sistemas.",
 
         contactTitle: "Entre em Contato",
-        contactDesc: "Choose your preferred channel for quotes or questions.",
+        contactDesc: "Escolha seu canal preferido para orçamentos ou dúvidas.",
         contactPhone: "Telefone",
 
         formTitle: "Se preferir, deixe seu e-mail para contato",
